@@ -10,7 +10,7 @@ A cool countdown until summertime!
 ### Installation  
 
 Install Module 8 by installing End_of_year_countdown.py
-You will have to install datetime and time libraries.
+You will have to install datetime library.
 
 
 
