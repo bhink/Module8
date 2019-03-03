@@ -1,0 +1,23 @@
+#Creatinga Count down for the end of the year.  
+Print = "Schools out for summer" 
+Had to understand if I needed to import just time or datetime. 
+This helped : https://docs.python.org/2/library/datetime.html 
+
+PM vs. Am for time?  24 hour time. 
+
+Ran first and got : type object 'datetime.datetime' has no attribute 'datetime'
+  Adjusted to datetime.datetime(2019,4, 28, 11, 00)
+  Got error í TypeError: descriptor 'date' requires a 'datetime.datetime' object but received a 'int'
+  Tried adding int(before each number) 
+ Mess up first with end-start.... realized quickly that mistake 
+
+Tried adding brackets around the date….still error. Then removed the "0" Still getting not attribute for datetime
+Realized that I didnt need datetime.datetime --that was my error. Removed that and left the int() for the times and it worked. 
+I had the message as schools out for summer and it was printing that along with the actual count down.
+
+Changed the messaginga and then added an if statement to have it print a message once the semester was over saying 'School's out for summer"
+  http://anh.cs.luc.edu/handsonPythonTutorial/ifstatements.html
+Wanted to add if the start date was greater than the end date... it would print Schools out for summer!
+Used an ' for school's out …. Got the error because of the messed up string.
+Removed that and ran it...successfully 
+
