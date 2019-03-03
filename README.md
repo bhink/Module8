@@ -3,15 +3,17 @@
   Once it reaches summer break it will print 'School's out for summer!'
 
 
-### Installation
-
-First you should install the time library and the datetime library. 
-
+##Features
+A cool countdown until summertime! 
 
 
+### Installation  
+
+Install Module 8 by installing End_of_year_countdown.py
+You will have to install datetime and time libraries.
 
 
 
-### Questions?
+### Questions?/Support
 
-Reach out to @bhink on GitHub or email her at brittany.hink@ufl.edu 
+Reach out to @bhink on GitHub or email her at brittany.hink@ufl.edu if you have questions or if you are having issues.
